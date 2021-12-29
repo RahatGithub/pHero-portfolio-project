@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.header{
+    background-image: url("header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header .writing{
+    float: left;
+    width: 35%;
+}
+
+.about .writing{
+    float: right;
+    width: 35%;
+}
+
+.about{
+    background-image: url("biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#pic1{
+    width: 400px;
+}
+#pic2{
+    width: 450px;
+}
+p{
+    font-family: 'roboto';
+    font-size: 16px;
+}
+h1{
+    color: #514BD1;
+    font-size: 35px;
+}
+h3{
+    font-size:30px;
+}
+
+button{
+    font-size:16px;
+    font-family: 'roboto';
+    padding: 10px 15px;
+    background-image: linear-gradient(90deg, #514BD1, #716eced2);
+    color: white;
+    border: 0px solid white;
+    border-radius: 3px;
+    /* box-shadow: 5px 5px 15px grey; */
+}
+
+button:hover{
+    
+    background-image: linear-gradient(90deg, #716eced2,#514BD1);
+    box-shadow: 5px 5px 5px grey;
+}
+
+button#lets-check{
+    background-image: linear-gradient(90deg, #f3593e, #e47e5f);
+}
+
+.latest-work{
+    background-color: rgba(234, 255, 250, 0.815);
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+}
+
+.my-designed-sites{
+    margin: 30px 20px 30px 20px;
+    height: 250px;
+    width: 350px;
+}
+
+.footer{
+    padding: 20px 20px;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+}
+
+#work-inquiry{
+    background-image: url("images/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 10px;
+    border-radius: 30px;;
+    width:40%;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+#social-icons img{
+    height: 40px;
+    margin: 0px 10px;
+}
+
+#latest-span{
+    color: #514BD1;
+}
+
+#stay-connected{
+    color: grey;
+}
+
+#email{
+    font-family: 'roboto';
+    color: #514BD1;
+}
