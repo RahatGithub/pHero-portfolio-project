@@ -3,6 +3,17 @@ body{
     font-family: 'Bebas Neue', cursive;
 }
 
+.top-bar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-bar div{
+    margin: 5px 20px;
+    font-family: 'roboto';
+    font-weight: 700;
+}
+
 .header{
     background-image: url("header-bg.png");
     background-repeat: no-repeat;
